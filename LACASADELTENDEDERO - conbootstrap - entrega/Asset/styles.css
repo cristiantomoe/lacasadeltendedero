@@ -1,0 +1,74 @@
+.navegador {
+
+    background-color: white;
+    display: flex-end;
+    flex-direction: end;
+    box-shadow: -6px -4px 36px -10px rgba(0, 0, 0, 0.68);
+
+}
+
+.navegador ul  {
+    flex-direction: row-reverse;
+    List-style: none;
+    color: black;
+    display: flex;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-display: initial;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: -6px -4px 36px -10px rgba(0, 0, 0, 0.68);
+}
+
+
+.navegador  a {
+
+    List-style: none;
+    color: black;
+    display: flex;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-display: initial;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: -6px -4px 36px -10px rgba(0, 0, 0, 0.68);
+    align-items: flex-start;
+}
+
+.logo {
+    width: 300px;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+.navegador .logo {
+    display: flex;
+    align-items: center;
+}
+
+.ropa:hover 
+{
+transform: matrix(1);
+-webkit-transition: width 2s ease;
+-moz-transition: width 2s ease;
+-ms-transition: width 2s ease;
+-o-transition: width 2s ease;
+transition: width 2s ease;
+
+      
+}
+.ropa {
+    width: 400px; 
+}
+
+/*contactos*/
+.red{
+    width: 100px;
+    align-items:flex-end;
+    padding: 50px;
+    width: 150px;
+    display: flex;
+    transition: 4s;
+    transform: scale(1, 1);
+    transition: cubic-bezier(2);;
+}
